@@ -8,7 +8,7 @@ int main(void) {
     int salary;
 
     printf("Nhap ten nhan vien: ");
-    scanf("%s", nameEmployee);
+    fgets(nameEmployee, sizeof(nameEmployee), stdin);
     printf("Nhap he so luong: ");
     scanf("%f", &hesoLuong);
     printf("Nhap song ngay cong trong thang: ");
